@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+		#left{width:750px;
+			 margin-left:10px;float:left;margin-left:35px;margin-right:20px;position:relative;bottom:100px;}
+		
+		.right{width:250px;float:left;margin-right:30px;position:relative;bottom:100px;}
+		
+		/*中间轮播图*/
+		#image{width:1022px;height:300px;position:relative;left:35px;bottom:130px;-webkit-box-shadow:4px 6px 5px 1px rgba(51,51,51,0.4);}
+		#image a dl{position:absolute;top:0px;height:300px;}
+		#image a dl dd{float:left;height:300px;}
+		#image a span{position:relative;top:270px;left:750px;z-index:2;padding:10px 30px;color:#FFF;font-size:14px;border-left:1px #CCCCCC solid;}
+		#image .two:hover .twopage{display:block;z-index:1}
+		
+		#image .one:hover .onepage{display:block;z-index:1}
+		#image a dl dd div{opacity:0;width:509px;height:298px;text-align:center;line-height:40px;position:relative;bottom:303px;
+		background:-webkit-linear-gradient(top,rgba(0,0,0,1),rgba(97,97,97,0.0),rgba(0,0,0,1));color:#FFF}
+		#image a dl dd:hover div{-webkit-transition: opacity .8s ease .1s;opacity:.7}
+		#image img{border:1px #FFFFFF solid;}
+		
+		
+		/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+		.kuang .content dt{float:left;}
+		.kuang .content dl{float:left;padding:10px 0px;border-bottom:1px #666 dashed;font-size:13px;color:#333;}
+		.kuang .content dd{float:left;width:480px;margin-left:30px;}

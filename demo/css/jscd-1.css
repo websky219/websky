@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main{width:750px;
+			 margin-left:10px;float:left;margin-left:35px;margin-right:20px;position:relative;bottom:100px;line-height:30px}
+			 
+		
+		#main textarea{width:600px;height:50px;background:rgba(245,245,245,0.5);}
+			 
+		#note{width:250px;float:left;margin-right:0px;position:relative;bottom:100px;}
+		#note #book{width:250px;background:rgba(245,245,245,0.5);}
+		#note table{margin:10px auto;}
+		.biji{position:fixed;background:rgba(245,245,245,0.2);overflow:hidden;-webkit-box-shadow:2px 2px 5px 1px rgba(51,51,51,0.4);border-radius:5px;top:160px;}
+		input{border:1px rgba(204,204,204,.5) solid;}
+		.kuang .content h3{line-height:40px;text-align:center;}
+		.shili{border:1px #999999 dotted;background:rgba(204,204,204,.2);padding:10px 2px;}
+		.content{text-indent:25px;}

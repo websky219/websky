@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+		#header{background:url(../image/shang1.png) 0px 0px no-repeat,url(../image/xia1.png) 0px 80px no-repeat;height:260px;width:980px;margin:0px auto;position:relative;top:10px;}
+		.menu a{color:#FFF;font-weight:bolder;font-size:16px;text-decoration:none;}
+		/*选择器的含义：只控制中li：hover的子标签a，不会控制a标签中的子a标签*/
+		.menu li:hover>a{text-shadow:0 0 10px #00FD7E;}
+		.menu{position:absolute;top:60px;left:240px;}
+		.menu li{float:left;position:relative;width:80px;list-style:none;padding-left:12px;z-index:1}
+		.menu li:hover ul{opacity:1}
+		.menu li ul{opacity:0;background:-webkit-linear-gradient(top,rgba(216,216,216,.3),rgba(216,216,216,0),rgba(216,216,216,.3));-webkit-transition: opacity .3s ease .1s;position: absolute;
+					  top: 40px;-webkit-box-shadow:1px 1px 8px 1px rgba(51,51,51,0.3);border-radius:5px;
+					  left: 0;padding-top:8px;}
+		
+		.menu ul li{height:0; -webkit-transition: height .3s ease .1s;}
+		.menu li:hover ul li{height:30px;}
+		
+		
+		/*底部footer*/
+		
+		.footer{text-align:center;border-top:1px #666666 solid;clear:both;padding:10px;font-size:13px;}
+		
+		/*————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*/
+		li{list-style:none;}
+		img{border:none;}
+		*{margin:0px;padding:0px}
+		body{background:url(../image/bei.png);width:1920px;}
+		#box{width:1100px;margin:0px auto;overflow:hidden;}
+		a{text-decoration:none}
+		
+		.title{background:-webkit-linear-gradient(top,rgba(216,216,216,0),rgba(245,245,245,0.2),rgba(216,216,216,.0));height:32px;-webkit-box-shadow:1px 1px 5px 2px rgba(51,51,51,0.3);line-height:32px;padding-left:10px;font-weight:bolder;overflow:hidden;border-radius:5px;font-size:14px;}
+		.kuang{background:rgba(245,245,245,0.2);overflow:hidden;-webkit-box-shadow:2px 2px 5px 1px rgba(51,51,51,0.4);border-radius:5px;margin-bottom:20px;}
+		.kuang .content{padding:20px 20px;overflow:hidden;line-height:26px;}
+		
+		/*___________________________________________________________________________________________________________________________________________*/		
+		
+		
+		.kuang .content h5{float:left;padding-top:5px;}
+		.kuang .content h2{line-height:40px;}
+		.kuang .content hr{border:1px #666 dashed;margin:20px 10px;}
+		.kuang .content p{font-size:14px;}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#main{width:1000px;margin:0px auto;position:relative;bottom:100px;overflow:hidden;padding-right:5px;}
+	.kuang .content .thumbnail{width:200px;height:168px;float:left;background:rgba(245,245,245,0.2);overflow:hidden;-webkit-box-shadow:2px 2px 5px 1px rgba(51,51,51,0.4);border-radius:5px;
+								margin:20px;}
+	.kuang .content .thumbnail dt{float:left;-webkit-box-reflect:below 1px -webkit-gradient(linear,0 0,0 100%,from(transparent),color -stop(.5,transpraent),to(rgba(3,3,3,.2)))}
+	.kuang .content .thumbnail img{margin-top:10px;-webkit-box-shadow:2px 2px 2px 1px rgba(51,51,51,0.4);  -webkit-box-reflect: below 0px -webkit-gradient(linear, 0 0, 0 96%, from(transparent), color-stop(.9, transparent), to(rgba(3,3,3,.6)));-webkit-transition:.7s;position:relative;z-index:2}
+	.kuang .content .thumbnail dd{text-align:center;color:#FFF;font-size:13px;}
+	.kuang .content .thumbnail img:hover{-webkit-transform: scale(1.3)}
